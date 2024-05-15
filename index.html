@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q4 Quiz 2</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+	body{
+		background-image: url('dawning123.jpg');
+		background-repeat: no-repeat;
+	}
+	#search{
+		margin-left: 785px;
+		width: 280px;
+	}
+	#logo{
+		width: 50px;
+		height: 50px;
+		margin-left: 2px;
+	}
+	.container{
+			align-content: center;
+        	color: white;
+            border: solid;
+            width: 600px;
+            margin: 190px;
+            padding: 15px;
+            padding-bottom: 110px;
+            border-radius: 8px;
+	}
+	.rounded-circle{
+			height: 270px;
+			border: solid;
+	}
+</style>	
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark"> 
+	<a class="navbar-brand"><img id="logo" src="ICT LOGO.png"></a> 
+	<ul class="navbar-nav"> 
+	 <li class="nav-item"> 
+	  <a class="nav-link" href="page2.html">1ST QUARTER</a> 
+	 </li>
+	 <li>
+	 	<a class="nav-link" href="page3.html">2ND QUARTER</a> 
+	 </li>
+	</ul>
+		<form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="input-group" id="search">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+      </div>
+    </form>
+    <button type="submit" class="btn btn-primary">Search</button>
+  </div> 
+	</nav>
+<center>
+  <div class="container" class="mb-3 mt-3">
+  	<form action="/action_page.php">
+  	<img style="width: 300px;" class="rounded-circle" src="TAUFAN.jfif">
+  	<br>
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    <label for="pwd" class="form-label">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    <br> <br>
+  </form>
+  	<a href="mainpage.html"><button class="btn btn-success btn-lg">Login</button></a>
+  </div>
+</center>
+</body>
+</html>
